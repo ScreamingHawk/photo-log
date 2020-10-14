@@ -1,0 +1,17 @@
+{
+  "name": "photo-log",
+  "version": "1.0.0",
+  "description": "Time lapse video creator",
+  "repository": "https://github.com/ScreamingHawk/photo-log.git",
+  "author": "Michael Standen <screaminghawk@gmail.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "node capture_images.js",
+    "clear": "node clear_images.js"
+  },
+  "dependencies": {
+    "node-webcam": "^0.6.4",
+    "prompt-confirm": "^2.0.4"
+  }
+}
